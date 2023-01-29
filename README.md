@@ -45,21 +45,9 @@ def QR_Decomposition(A):
         for j in range(i,m):
             R[i,j]=A[:,j]@Q[:,i]
     print(Q)
-
-
-
-
-
-
-
 ```
-
 ## Output
-```
-![QR decomposition](https://user-images.githubusercontent.com/120539398/214780116-d84318e3-c470-4a53-97e9-7bf67de6417e.png)
-
-
-```
+![QR decomposition](https://user-images.githubusercontent.com/120539398/215316037-40e566f2-a50c-4f16-a1fa-bc05bef0e50b.png)
 
 ## Result
 Thus the QR decomposition algorithm using the Gram-Schmidt process is written and verified the result.
